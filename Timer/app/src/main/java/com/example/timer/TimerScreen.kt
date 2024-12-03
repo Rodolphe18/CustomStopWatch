@@ -34,7 +34,7 @@ fun TimerScreen(
             Text(text = "START")
         }
         Button(modifier = Modifier.padding(bottom = 16.dp), onClick = { onPause() }) {
-            Text(text = "STOP")
+            Text(text = "PAUSE")
         }
         Button(modifier = Modifier.padding(bottom = 16.dp), onClick = { onReset() }) {
             Text(text = "RESET")
